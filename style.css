@@ -264,12 +264,12 @@ margin-top: 17px;
 
 }
 
-.header .bar:after{
+.header .bar::after{
     width: 30px;
     height: 3px;
 }
 
-.header .bar:before{
+.header .bar::before{
     width: 30px;
     height: 3px;
 }
