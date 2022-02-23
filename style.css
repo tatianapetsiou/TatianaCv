@@ -235,3 +235,10 @@ input.btn{
 .intro{
 margin-top: 17px;
 }
+
+@media only screen and (max-width: 969px) {
+    .header{
+        transform: translateX(-260px);
+    }
+    
+}
