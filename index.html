@@ -164,10 +164,12 @@
 
     </script>
 
-    <script>$(".hamburger-menu, .main-nav ul li a").on( 'click', function() {
+    <script>
+    $(".hamburger-menu, .main-nav ul li a").on( 'click', function() {
         $(".header").toggleClass("pushed");
-        $(".main-content").toggleClass("main-pushed");
+        $("#main-content").toggleClass("main-pushed");
         $('.bar').toggleClass('animate');
-      });</script>
+      });
+      </script>
 </body>
 </html>
