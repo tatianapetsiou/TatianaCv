@@ -240,5 +240,9 @@ margin-top: 17px;
     .header{
         transform: translateX(-260px);
     }
+
+    #main-content{
+        width: 100%;
+    }
     
 }
