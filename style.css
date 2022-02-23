@@ -236,6 +236,44 @@ input.btn{
 margin-top: 17px;
 }
 
+.header .mobile-bar{
+    background-color: black;
+    color: white;
+    height: 60px;
+    right: -59px;
+    position: absolute;
+    z-index: 3;
+    width: 60px;
+}
+
+.header .hamburger-menu{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.header .bar{
+    position: relative;
+    transform: translateY(25px);
+    background: white;
+
+}
+
+.header .bar:after{
+    width: 30px;
+    height: 3px;
+}
+
+.header .bar:before{
+    width: 30px;
+    height: 3px;
+}
+
 @media only screen and (max-width: 969px) {
     .header{
         transform: translateX(-260px);
@@ -243,6 +281,7 @@ margin-top: 17px;
 
     #main-content{
         width: 100%;
+
     }
     
 }
