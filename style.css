@@ -80,7 +80,7 @@ color: white;
 
 #main-content{
     background-color: white;
-    width:65% ;
+    width:74% ;
     float: right;
     position: relative;
     display: block ;
@@ -224,8 +224,13 @@ input.btn{
     border-radius: 4px;
     padding: 8px 16px;
     height: 31px;
+    display: block;
 }
 
 .intro li {
     padding: 5px 0px;
+}
+
+.intro{
+margin-top: 17px;
 }
