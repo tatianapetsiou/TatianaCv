@@ -287,6 +287,10 @@ margin-top: 17px;
     transition: bottom 300ms 300ms cubic-bezier(0.23,1,0.32,1),transform 300ms cubic-bezier(0.23,1,0.32,1);
 }
 
+.visible-sm{
+    display: none;
+}
+
 @media only screen and (max-width: 969px) {
     .header{
         transform: translateX(-260px);
@@ -295,6 +299,10 @@ margin-top: 17px;
     #main-content{
         width: 100%;
 
+    }
+
+    .visible-xs{
+        display: block;
     }
     
 }
