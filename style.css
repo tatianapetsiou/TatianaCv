@@ -225,6 +225,7 @@ input.btn{
     padding: 8px 16px;
     height: 31px;
     display: block;
+    line-height: 0;
 }
 
 .intro li {
