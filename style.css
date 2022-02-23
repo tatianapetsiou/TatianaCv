@@ -304,5 +304,9 @@ margin-top: 17px;
     .visible-xs{
         display: block;
     }
+
+    .pushed{
+        transform: translateX(0);
+    }
     
 }
