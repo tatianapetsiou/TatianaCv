@@ -291,6 +291,8 @@ margin-top: 17px;
     display: none;
 }
 
+
+
 @media only screen and (max-width: 969px) {
     .header{
         transform: translateX(-260px);
@@ -308,5 +310,4 @@ margin-top: 17px;
     .pushed{
         transform: translateX(0);
     }
-    
 }
