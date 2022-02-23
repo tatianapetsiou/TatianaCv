@@ -163,5 +163,11 @@
     <script src="./js/progress-bar.js" >
 
     </script>
+
+    <script>$(".hamburger-menu, .main-nav ul li a").on( 'click', function() {
+        $(".header").toggleClass("pushed");
+        $(".main-content").toggleClass("main-pushed");
+        $('.bar').toggleClass('animate');
+      });</script>
 </body>
 </html>
