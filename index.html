@@ -165,10 +165,10 @@
     </script>
 
     <script>
-    $(".hamburger-menu, .main-nav ul li a").on( 'click', function() {
-        $(".header").toggleClass("pushed");
-        $("#main-content").toggleClass("main-pushed");
-        $('.bar').toggleClass('animate');
+    document.querySelector(".hamburger-menu, .main-nav ul li a").addEventListener( 'click', function() {
+        document.querySelector(".header").classList.toggle("pushed");
+        document.querySelector("#main-content").classList.toggle("main-pushed");
+        document.querySelector('.bar').classList.toggle('animate');
       });
       </script>
 </body>
