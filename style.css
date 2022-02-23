@@ -310,4 +310,8 @@ margin-top: 17px;
     .pushed{
         transform: translateX(0);
     }
+
+    .main-pushed {
+        transform: translateX(260px);
+    }
 }
